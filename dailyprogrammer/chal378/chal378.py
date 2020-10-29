@@ -12,7 +12,7 @@ def sortDesc(arr):
     newArr = sorted(arr, reverse=True)
     return newArr
 
-#returns whether a number is less than or equal to the length of a list
+#returns whether length of a list is less than num
 def lengthCheck(num, arr):
     return len(arr) < num
 
